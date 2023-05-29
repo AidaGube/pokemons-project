@@ -1,0 +1,37 @@
+.card__pokemons {
+    margin: 20px 0px 50px;
+  }
+  .card__img img {
+  width: 170px;
+  height: 250px;
+  position: absolute;
+  left: 55px;
+  /* top: 20px; */
+  padding: 15px;
+  }
+  .card__img {
+    background-color: aliceblue;
+    border: 3px solid var(--card-background);
+    border-radius: 7px 7px 0px 0px;
+    /* width: 270px; */
+    height: 276px;
+    position: relative;
+  }
+  .card__title {
+    width: 270px;
+    height: 70px;
+    margin-top: -10px;
+    background: var(--card-background);
+    border-radius: 0 0 7px 7px;
+    padding: 20px 0px 30px;
+  }
+  .card__title h3 {
+    text-align: center;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--card-text)
+  }
+  
