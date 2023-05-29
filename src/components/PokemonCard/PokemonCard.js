@@ -11,11 +11,8 @@ const PokemonCard = ({ pokemon }) => {
 
   useEffect(() => {
     axios.get(pokemon.url).then(data => {
-      console.log(data);
       setImage(data.data.sprites.other.dream_world.front_default)
     })
-
-    
   }, [pokemon.url]) //массив зависимости следм за обновление наших зависимостей то что используем за тем и следим
 
   return (

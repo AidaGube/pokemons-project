@@ -7,8 +7,8 @@ const List = ({ pokemonList }) => {
         <div className={classes.container}>
             <div className={classes.card__lists}>
                 {
-                    pokemonList.map(pokemon => <PokemonCard
-                        // key={id}
+                    pokemonList.map((pokemon) => <PokemonCard
+                    
                         pokemon={pokemon}
                     />)}
             </div>
