@@ -1,0 +1,70 @@
+.pokemons__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container {
+    max-width: 1280px;
+  }
+  .pok__img {
+    margin-top: 20px;
+    width: 250px;
+  }
+  .pokemons__title {
+    width: 500px;
+    margin: 15px 0px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  .pokemons__text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 22px;
+    margin: 15px 0px;
+  }
+  .pokemons__text span {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: rgb(255, 183, 0);
+  }
+  .pokemon__name {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* .pokemons__left span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  } */
+  .pokemons {
+    margin-bottom: 30px;
+  }
+  .pokemons h2 {
+    margin: 15px 0px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: rgb(255, 183, 0);
+  }
+  .pokemons__subtitle {
+    /* max-width: 1150px; */
+    text-indent: 30px;
+    margin: 15px 0px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  
