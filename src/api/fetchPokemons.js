@@ -20,3 +20,12 @@ export const fetchPokemonS = async (from, till, type) => {
     console.log(sortItem(list, 'attach'), 'sortList');
     return sortItem(list, type)
 }
+
+export const getPokemon = async (id) => {
+    try { //помогает улавливать ошибки
+        const { data } = await axios.get(baseUrl + `pokemon/${id}`)
+        return data
+    } catch (error) {
+        console.log('error');
+    }
+}
