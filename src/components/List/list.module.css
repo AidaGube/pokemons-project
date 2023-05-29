@@ -1,0 +1,14 @@
+.card__lists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin: 24px 0px; */
+    cursor: pointer;
+  }
+  .container {
+      max-width: 1280px;
+  }
+  
+  
+  
