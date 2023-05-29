@@ -1,0 +1,10 @@
+.poke__sort button{
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0px 15px;
+    font-size: 16px;
+    padding: 12px 9px;
+    border-radius: 25%;
+    background-color: var(--card-background);
+}
